@@ -7,7 +7,7 @@ const port = 3030;
 const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "1234",
+    password: "your password",
     port: 3306,
     database: "fetch_api"
 })
