@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fetch_api.css">
+     <!-- โหลดไลบรารี jQuery ก่อนใช้งาน -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+  <form id="add-recipe-form">
+    <label for="firstname">Firstname:</label>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+    <label for="lastname">Lastname:</label>
+    <input id="lastname" name="lastname" required><br><br>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Add Recipe">
+  </form>
+
+      <br>
+      <br>
+      <br>
+
+      <form id="login-from" >
+        <label for="login_username">Username:</label>
+        <input type="text" id="login_username" name="login_username"><br><br>
+        <label for="login_password">Password:</label>
+        <input type="password" id="login_password" name="login_password"><br><br>
+				<input type="submit" value="Login">
+			</form>
+
+      <br>
+      <br>
+
+
+    <div id="data-container">
+
+    </div>
+
+
+
+
+
+    <script src="fetch_api.js"></script>
+</body>
+</html>
