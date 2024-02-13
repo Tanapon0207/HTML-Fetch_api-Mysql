@@ -63,6 +63,8 @@ app.post('/register', (req, res) => {
             if (err) {
                 console.error('Error:', err);
                 return res.status(500).json({ error: 'Error retrieving data' });
+          }else{
+            console.log("register สำเร็จ!!!");
             }
             res.json(rows[0]);
         });
